@@ -1,0 +1,77 @@
+@media only screen and (min-width:266px) and (max-width: 656px)
+{
+  .image
+  {
+    margin: 0 0.3em 0 0.3em;
+  }
+  .image img
+  {
+    float: none;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    margin-bottom: 0.8em;
+  }
+  #main h1
+  {
+    font-size: 2.5em;
+  }
+  #main h2
+  {
+    font-size: 1.5em;
+  }
+  #explain p
+  {
+    padding:0.5em 0.3em 0.5em 0.3em;
+    font-size: 1.5em;
+  }
+}
+/*image*/
+@media only screen and (min-width:657px) and (max-width:1075px)
+{
+
+  .image
+  {
+    margin: 0 1em 0 1em;
+  }
+  .image img
+  {
+    display: block;
+    margin: auto;
+    float: none;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1.5em;
+  }
+  #explain p
+  {
+    padding-top: 0.5em;
+  }
+}
+@media only screen and (min-width:1076px) and (max-width:1330px)
+{
+  .image
+  {
+    margin: 0 1em 0 1em;
+  }
+  .image img
+  {
+    display: block;
+    margin: auto;
+    float: none;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1.5em;
+  }
+/*map*/
+@media only screen and (min-width:1076px) and (max-width:1300px)
+{
+  #map
+  {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}

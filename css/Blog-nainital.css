@@ -1,0 +1,59 @@
+section, footer
+{
+  background-color: #A5D6A7;
+}
+#main h1{
+    font-size: 3.5em;
+    font-family: georgia, courier new, fantasy;
+    font-weight: bold;
+    text-align: center;
+    color: chartreuse;
+}
+#main h2
+{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: cursive ;
+    color:aqua;
+}
+#main
+{
+  background-color: #1B5E20;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#explain p
+{
+    font-size: 1.5em;
+    padding: 1.5em ;
+    text-align: center;
+}
+.image
+{
+  margin-left: 5em; /*for spacing left of whole image class*/
+}
+.image img
+{
+    margin-right: 2em; /*for space in btwn images*/
+    display: inline;
+    flex-wrap: wrap;
+    width: 20em;
+    height: 12em;
+}
+#map
+{
+    float: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 1.5em;
+}
+footer
+{
+    margin-top: 1.5em;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: forestgreen;
+}
